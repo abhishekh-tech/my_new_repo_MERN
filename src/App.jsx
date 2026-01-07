@@ -9,6 +9,8 @@ import img4 from './assets/everest.jpg'
 import img5 from './assets/techo.jpg'
 import img6 from './assets/laptop.png'
 import img7 from './assets/technology.jpg'
+import {Navbar} from './assets/Navbar.jsx'
+
 
 
 function Header(){
@@ -46,17 +48,7 @@ function Header(){
   );
 }
 
-function Navbar() {
-  return (
-    <div className="navbar" style={{position:"fixed",width:"67%",marginTop:"50px",height:"50px"}}>
-      <span className="logo">MyApp</span>
-      <span className="nav-item">Home</span>
-      <span className="nav-item">About</span>
-      <span className="nav-item">Contact</span>
-      <div style={{position:"absolute",right:20,padding:10,paddingRight:20,paddingLeft:20,fontWeight:500,color:"blue",backgroundColor:"white",borderRadius:20}}>SignUp</div>
-    </div>
-  );
-}
+
 
 function Form(){
   const [name,setName]=useState('');
