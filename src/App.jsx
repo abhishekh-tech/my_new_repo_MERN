@@ -9,7 +9,7 @@ import img4 from './assets/everest.jpg'
 import img5 from './assets/techo.jpg'
 import img6 from './assets/laptop.png'
 import img7 from './assets/technology.jpg'
-import {Navbar} from './assets/Navbar.jsx'
+import Navbar from './Navbar.jsx'
 
 
 
