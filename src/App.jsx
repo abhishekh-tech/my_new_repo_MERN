@@ -12,6 +12,7 @@ import img7 from './assets/technology.jpg'
 import Navbar from './Navbar.jsx'
 import Header from './Header.jsx'
 
+
 function Form(){
   const [name,setName]=useState('');
   const [email,setEmail]=useState('');
