@@ -33,7 +33,7 @@ function Form(){
     
   return( 
     <form className="footer-form" style={{position:"absolute",left:"40%",bottom:"50%"}}>
-      <p style={{color:"white",left:20,fontWeight:500,fontSize:15}}>Add Your Information:</p>
+      <p style={{color:"black",left:20,fontWeight:500,fontSize:15}}>Add Your Information:</p>
       <input
         type="text"
         value={name}
@@ -151,7 +151,9 @@ function Footer(){
      <div style={{
           display:"flex",
           flexDirection:"column",
-          backgroundColor:"#000080",
+          backgroundColor:"lightgray",
+          boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
+          border:"1px solid black",
           alignItems:"center",//vertical position:center,space-between space-evenly
           justifyContent:"space-evenly",
           position:"relative",//horizontal position:center,space-between space-evenly
@@ -172,9 +174,9 @@ function Footer(){
                   top:"20px",
                   right:"100px",
                   zIndex:1
-                }}><p style={{color:"white",margin:0}}>Contact Us:</p>
-                <p style={{color:"white",margin:0}}>Phone no: 9817756908</p>
-                <p style={{color:"white",margin:0}}>Gmail ID: gabhishekh1@gmail.com</p>
+                }}><p style={{color:"black",margin:0,fontWeight:500}}>Contact Us:</p>
+                <p style={{color:"black",margin:0,fontWeight:500}}>Phone no: 9817756908</p>
+                <p style={{color:"black",margin:0,fontWeight:500}}>Gmail ID: gabhishekh1@gmail.com</p>
                 </div>
                 <div style={{
                   position: "absolute",
