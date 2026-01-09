@@ -11,6 +11,7 @@ import img6 from './assets/laptop.png'
 import img7 from './assets/technology.jpg'
 import Navbar from './Navbar.jsx'
 import Header from './Header.jsx'
+import image from './assets/curvy-blue-wave-lines-background-presentation-backdrop.jpg'
 
 
 function Form(){
@@ -153,7 +154,8 @@ function Footer(){
      <div style={{
           display:"flex",
           flexDirection:"column",
-          backgroundColor:"lightgray",
+          backgroundColor:"#F2F0EA",
+          backgroundImage:`url(${image})`,
           boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
           border:"1px solid black",
           alignItems:"center",//vertical position:center,space-between space-evenly
