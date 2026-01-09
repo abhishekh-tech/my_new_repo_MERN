@@ -1,5 +1,6 @@
 import React from "react";
 import img6 from './assets/laptop.png'; 
+import img from './assets/newmobile.jpg'
 
 function Header() {
   return (
@@ -13,6 +14,9 @@ function Header() {
         backgroundColor: "lightgray",
         display: "flex",
         alignItems: "center",
+        backgroundImage:`url(${img})`,
+        backgroundRepeat: "no-repeat",
+
         gap: "15px",
         paddingLeft: "15px",
         borderRadius: "15px",
@@ -37,8 +41,8 @@ function Header() {
       <h1
         style={{
           color: "purple",
-          margin: 0,
-          fontSize: "24px",
+          marginLeft:"35%",
+          fontSize: "30px",
         }}
       >
         Gupta Tech Store

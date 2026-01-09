@@ -77,14 +77,16 @@ function Dashboard_Section(){
   return(
   <div>
     <section id="team" className="about-team section">
-      <marquee className="dashboard-title" style={{zIndex:1}}>!!! 20% off on Lenovo Ideapad and HP Victus !!!</marquee>
+      <marquee className="dashboard-title" style={{zIndex:1,backgroundColor:"red",color:"white",borderRadius:"5px",fontSize:"30px"}}>!!! 20% off on Lenovo Ideapad and HP Victus !!!</marquee>
       <div className="dashboard-wrapper">
         
-      <div className="left-section" style={{border:"8px solid #1E90FF"}}>
-        <h1 style={{color:"white"}}>Top Tech Unbeatable Prices</h1>
-        <h1 style={{color:"white"}}>Best Offers!</h1>
-        <p>This section is on the left.</p>
+      <div className="left-section" style={{border:"4px solid #22C55E"}}>
+        <div style={{position:"absolute",top:"110%"}}><h1 style={{color:"#DC2626"}}>Best Offers!!!</h1>
+        <h1 style={{color:"#DC2626"}}>Unbeatable Prices</h1>
+        </div>
       </div>
+      
+      
       <div className="dashboard-container">
         
         <div className="dashboard-grid">
