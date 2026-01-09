@@ -77,7 +77,7 @@ function Dashboard_Section(){
   return(
   <div>
     <section id="team" className="about-team section">
-      <marquee className="dashboard-title" style={{zIndex:1,backgroundColor:"red",color:"white",borderRadius:"5px",fontSize:"30px"}}>!!! 20% off on Lenovo Ideapad and HP Victus !!!</marquee>
+      <marquee className="dashboard-title" style={{zIndex:1,backgroundColor:"#DC2626",color:"white",borderRadius:"5px",fontSize:"30px"}}>!!! 20% off on Lenovo Ideapad and HP Victus !!!</marquee>
       <div className="dashboard-wrapper">
         
       <div className="left-section" style={{border:"4px solid #22C55E"}}>
